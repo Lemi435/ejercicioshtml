@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de etiquetas HTML</title>
+</head>
+<body id="principal" class="pagina" style="font-family: Arial;">
+    <h1 id="titulo">Ejemplo de etiquetas HTML</h1>
+
+    <p>Este es un párrafo de ejemplo.</p>
+
+    <a href="https://www.google.com" target="_blank" title="Abrir Google">Ir a Google</a>
+
+    <p>Imagen de ejemplo:</p>
+    <img src="foto.jpg" alt="Una foto de ejemplo" width="150" height="100">
+
+    <h2>Lista sin orden</h2>
+    <ul class="lista">
+        <li>Manzana</li>
+        <li>Banano</li>
+        <li value="3">Pera</li>
+    </ul>
+
+    <h2>Lista ordenada</h2>
+    <ol type="1" start="1" id="lista-ordenada">
+        <li>Primero</li>
+        <li>Segundo</li>
+        <li>Tercero</li>
+    </ol>
+
+    <div id="contenedor" class="contenedor" style="color: blue;">
+        Este texto está dentro de un div.
+        <p>Este es otro párrafo dentro del contenedor.</p>
+    </div>
+
+    <p>Hola, <span id="saludo" class="texto" style="color: red;">este texto usa span</span>.</p>
+
+    <form action="/registro" method="post" target="_self">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" value="">
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
